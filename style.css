@@ -1,0 +1,239 @@
+* {
+        margin: 0;
+        padding: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+    }
+
+body {
+    margin: 0 auto;
+    background-color: #eceef1;
+}
+
+header {
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+#signin,
+#signin-text {
+    float: right;
+    margin-top: 10px;
+    line-height: 1.5;
+    font-family: 'AvenirNext',Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#btn-signin {
+    margin: 0 30px 0 10px;
+    width: 110px;
+    height: 35px;
+    background: #0077c5;
+    border: 1px solid #4c4c4c;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+    color: whitesmoke;
+}
+
+#signin-text {
+    font-size: 12px;
+}
+
+#acc-reset-link {
+    text-decoration: none;
+    color: #0077c5;
+}
+
+.lock-img {
+    display: inline-block;
+    background-image: url("https://accounts.intuit.com/images/v2/icon-whitelock@3x.png");
+    background-size: contain;
+    background-repeat: none;
+    height: 1em;
+    width: 0.8em;
+    margin-right: 7px;
+    vertical-align: text-top;
+}
+
+#main {
+    margin: 0 auto;
+    max-width: 390px;
+}
+
+#white-bg {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    background-color: white;
+    border: 1px solid grey;
+    max-width: 320px;
+    padding: 35px;
+}
+
+.center { 
+    text-align: center;
+}
+
+#heading {
+    margin: 0 auto;
+    display: block;
+    background-image: url("https://accounts.intuit.com/images/v2/ecosystem_logos_new.png");
+    width: 118px;
+    height: 35px;
+}
+
+#quick-links {
+    margin-bottom: 15px;
+}
+
+.link {
+    display: inline-block;
+}
+
+
+#link1 {
+    background-image: url("https://accounts.intuit.com/images/v2/ecosystem_logos_new.png");
+    background-position: 0 27px;
+    height: 23px;
+    width: 101px;
+    margin-right: 7px;
+}
+
+#link2 {
+    background-image: url("https://accounts.intuit.com/images/v2/ecosystem_logos_new.png");
+    background-position: 343px 27px;
+    height: 23px;
+    width: 126px;
+    margin-right: 7px;
+}
+
+#link3 {
+    background-image: url("https://accounts.intuit.com/images/v2/ecosystem_logos_new.png");
+    background-position: 204px 27px;
+    height: 23px;
+    width: 64px;
+}
+
+#main-text {
+    font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+#big-text {
+    color: #4C4C4C;
+    line-height: 1.1;
+    font-size: 24px;
+}
+
+#small-text {
+    color: #4C4C4C;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+#learn-more {
+    text-decoration: none;
+    color: rgb(0, 119, 197);
+    font-size: 12px;
+}
+
+label {
+    color: #404040;
+    font-size: 14px;
+    line-height: 25px;
+    font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin-top: 15px;
+}
+
+#input-text {
+    font-size: 10px;
+    color: #444;
+    font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin-top: -17px;
+    margin-bottom: 25px;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    border: 1px solid #C1C5C8;
+    border-radius: 3px;
+    /* Text padding */
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+input:focus {
+    box-shadow: 0 0 10px #0077c5;
+}
+
+#phone::-webkit-outer-spin-button,
+#phone::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#btn-signup {
+    width: 304px;
+    height: 40px;
+    background: #0077c5;
+    border: 1px solid #4c4c4c;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+    color: whitesmoke; 
+}
+
+#signup-text {
+    margin-top: 40px;
+    text-align: center;
+    font-family: 'AvenirNext',Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    font-style: italic;
+    color: #bbb;
+    line-height: 1.5;
+}
+
+.plink {
+    text-decoration: none;
+    color: #0077c5;
+}
+
+#footer-heading {
+    background-image: url("https://accounts.intuit.com/images/v2/intuit_grey.svg");
+    margin: 0 auto;
+    display: block;
+    width: 82px;
+    height: 40px;
+}
+
+#footer-links {
+    font-family: 'Helvetica Neue',Helvetica,Arial,'Lucida Grande',sans-serif;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-link {
+    margin-left: 5px;
+}
+
+#footer-link {
+    text-decoration: none;
+    color: #505050;
+}
+
+#footer-link:hover {
+    text-decoration: underline;
+}
+
+.footer-text {
+    text-align: center;
+    font-family: 'Helvetica Neue',Helvetica,Arial,'Lucida Grande',sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+}
